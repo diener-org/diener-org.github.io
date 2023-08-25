@@ -1,0 +1,79 @@
+.about-bio {
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.bio-photo {
+  width: 225px;
+}
+
+.bio-text {
+  width: 500px;
+}
+
+.home {
+  text-align: center;
+}
+
+.home-nav {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  color: #5e5e5e;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  letter-spacing: 1px;
+}
+
+.home-nav-about {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+@media only screen and (max-device-width: 850px) {
+  #root {
+    display: block;
+  }
+
+  .bio-photo {
+    width: 200px;
+  }
+
+  .bio-text {
+    width: 475px;
+  }
+
+  #contact > img {
+    width: 400px;
+  }
+
+  .contact-imgs img {
+    width: 55px;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  #root {
+    display: inline-block;
+  }
+
+  .bio-photo {
+    width: 300px;
+  }
+
+  .bio-text {
+    width: 800px;
+  }
+
+  #contact > img {
+    width: 550px;
+  }
+
+  .contact-imgs img {
+    width: 75px;
+  }
+}
