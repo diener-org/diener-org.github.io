@@ -5,12 +5,12 @@ import bioText from "../images/bio-text.jpg";
 
 export default function About() {
   return (
-    <>
+    <div className="about">
       <SmallNav />
-      <div className="about-bio">
+      <div className="about-images">
         <img className="bio-photo" src={bioPhoto} alt="" />
         <img className="bio-text" src={bioText} alt="" />
       </div>
-    </>
+    </div>
   );
 }

@@ -1,6 +1,18 @@
-.about-bio {
-  display: inline-block;
-  padding-top: 50px;
+//mixins
+@mixin center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//about page
+
+.about {
+  display: grid;
+}
+
+.about-images {
+  @include center-image;
 }
 
 .bio-photo {
@@ -11,18 +23,54 @@
   width: 500px;
 }
 
+//contact page
+
+.contact {
+  display: grid;
+  grid-template-rows: 100px 2fr 1fr;
+}
+
+.contact-image {
+  grid-row-start: 2;
+  @include center-image;
+}
+
+.contact-small-images {
+  grid-row-start: 3;
+  padding-top: 10px;
+  @include center-image;
+}
+
+//home page
+
 .home {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 400px 25px;
   text-align: center;
 }
 
-.home-nav {
+.home-nav-items {
+  grid-column-start: 2;
+  grid-row-start: 3;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
-  color: #5e5e5e;
-  text-decoration: none;
-  text-align: center;
-  display: inline;
   letter-spacing: 1px;
+
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+
+  a:-moz-any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+
+  a:any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
 }
 
 .home-nav-about {
@@ -31,14 +79,14 @@
 }
 
 .logo {
-  padding-top: 100px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  justify-self: center;
 }
 
-@media only screen and (max-device-width: 850px) {
-  #root {
-    display: block;
-  }
+//responsive
 
+@media only screen and (max-device-width: 850px) {
   .bio-photo {
     width: 200px;
   }
@@ -46,34 +94,16 @@
   .bio-text {
     width: 475px;
   }
-
-  #contact > img {
-    width: 400px;
-  }
-
-  .contact-imgs img {
-    width: 55px;
-  }
 }
 
-@media only screen and (max-device-width: 600px) {
-  #root {
-    display: inline-block;
-  }
-
+@media only screen and (max-device-width: 700px) {
   .bio-photo {
     width: 300px;
+    @include center-image;
   }
 
   .bio-text {
     width: 800px;
-  }
-
-  #contact > img {
-    width: 550px;
-  }
-
-  .contact-imgs img {
-    width: 75px;
+    @include center-image;
   }
 }
