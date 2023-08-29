@@ -5,7 +5,7 @@ import logo from "../images/logo.jpg";
 export default function SmallNav() {
   return (
     <>
-      <Link to="/">
+      <Link className="small-nav" to="/">
         <img className="small-logo" src={logo} alt="" />
       </Link>
     </>

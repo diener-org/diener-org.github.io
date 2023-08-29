@@ -4,9 +4,9 @@ import logo from "../images/logo.jpg";
 
 export default function Home() {
   return (
-    <>
+    <div className="home">
       <img className="logo" src={logo} alt="" />
-      <div className="home">
+      <div className="home-nav-items">
         <Link className="home-nav" to="/work">
           WORK
         </Link>
@@ -17,6 +17,6 @@ export default function Home() {
           CONTACT
         </Link>
       </div>
-    </>
+    </div>
   );
 }
