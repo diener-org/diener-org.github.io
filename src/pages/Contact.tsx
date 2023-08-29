@@ -31,10 +31,3 @@ export default function Contact() {
     </div>
   );
 }
-
-/*
-<a href="mailto:evdiener@gmail.com"><img src="img/contact/email.jpg"></a>
-					<a href="http://www.pinterest.com/emmadiener/" target="blank"><img src="img/contact/pinterest.jpg"></a>
-					<a href="http://www.linkedin.com/pub/emma-diener/6a/892/2b5" target="blank"><img src="img/contact/in.jpg"></a>
-					<a href="http://emmadiener.tumblr.com/" target="blank"><img src="img/contact/tumblr.jpg"></a>
-*/
