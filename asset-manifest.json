@@ -1,19 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.53904930.css",
-    "main.js": "/static/js/main.c361b021.js",
+    "main.css": "/static/css/main.4f6964a0.css",
+    "main.js": "/static/js/main.084bdd3c.js",
     "static/js/787.7fb4ebf6.chunk.js": "/static/js/787.7fb4ebf6.chunk.js",
+    "static/media/frame-hover.jpg": "/static/media/frame-hover.708713a81983faeaee1d.jpg",
+    "static/media/frame.jpg": "/static/media/frame.5681b38112450ed9c8a2.jpg",
     "static/media/bio-photo.jpg": "/static/media/bio-photo.8a3b4e741131bc8e6a94.jpg",
+    "static/media/doodle-hover.jpg": "/static/media/doodle-hover.9f86c42d559e4b70d04b.jpg",
+    "static/media/doodle.jpg": "/static/media/doodle.7a03ba2f674ca3bb578b.jpg",
+    "static/media/jl-hover.jpg": "/static/media/jl-hover.e0e9c2249c68c1c3fb83.jpg",
+    "static/media/jl.jpg": "/static/media/jl.084e4e38b2788f7b7db2.jpg",
     "static/media/bio-text.jpg": "/static/media/bio-text.6c127692304eb1a236f4.jpg",
+    "static/media/ow-hover.jpg": "/static/media/ow-hover.7a73da24f0fbad62b9cc.jpg",
+    "static/media/clare-hover.jpg": "/static/media/clare-hover.b2895225cda5bd53cdec.jpg",
+    "static/media/clare.jpg": "/static/media/clare.1bb39a2cd80046bde55c.jpg",
+    "static/media/american-hover.jpg": "/static/media/american-hover.4802f7eb3c7eba43f5a3.jpg",
+    "static/media/bk-hover.jpg": "/static/media/bk-hover.7da16d527c314064e0b7.jpg",
+    "static/media/ow.jpg": "/static/media/ow.3ff24a1e4ec072962f22.jpg",
+    "static/media/american.jpg": "/static/media/american.0ab238ea68155290b8cd.jpg",
+    "static/media/bk.jpg": "/static/media/bk.9a124664b04c3d2d555a.jpg",
+    "static/media/misc-hover.jpg": "/static/media/misc-hover.1f1630c2e119fe8ce970.jpg",
+    "static/media/misc.jpg": "/static/media/misc.b1772dacd91ac9fd5ae5.jpg",
     "static/media/logo.jpg": "/static/media/logo.3befcaf5f0535d77da21.jpg",
+    "static/media/anine-hover.jpg": "/static/media/anine-hover.3e2e288a68811c51e030.jpg",
+    "static/media/anine.jpg": "/static/media/anine.4eb832916a042e307afb.jpg",
     "static/media/contact.jpg": "/static/media/contact.b7398fcb31c05c0da7a0.jpg",
     "index.html": "/index.html",
-    "main.53904930.css.map": "/static/css/main.53904930.css.map",
-    "main.c361b021.js.map": "/static/js/main.c361b021.js.map",
+    "main.4f6964a0.css.map": "/static/css/main.4f6964a0.css.map",
+    "main.084bdd3c.js.map": "/static/js/main.084bdd3c.js.map",
     "787.7fb4ebf6.chunk.js.map": "/static/js/787.7fb4ebf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53904930.css",
-    "static/js/main.c361b021.js"
+    "static/css/main.4f6964a0.css",
+    "static/js/main.084bdd3c.js"
   ]
 }
