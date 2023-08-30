@@ -1,5 +1,5 @@
 import React from "react";
-import SmallNav from "../components/SmallNav";
+import SmallLogo from "../components/SmallLogo";
 import contactImage from "../images/contact.jpg";
 import email from "../images/email.jpg";
 import linkedIn from "../images/in.jpg";
@@ -9,7 +9,7 @@ import tumblr from "../images/tumblr.jpg";
 export default function Contact() {
   return (
     <div className="contact">
-      <SmallNav />
+      <SmallLogo />
       <img className="contact-image" src={contactImage} alt="" />
       <div className="contact-small-images">
         <a href="mailto:evdiener@gmail.com">

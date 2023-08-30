@@ -1,4 +1,4 @@
-.small-nav {
+.small-logo-grid {
   grid-row-start: 1;
 }
 
@@ -7,4 +7,31 @@
   margin-left: auto;
   margin-right: auto;
   width: 100px;
+}
+
+.menu-link-items {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+
+  a:-moz-any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+
+  a:any-link {
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+}
+
+.menu-link-about {
+  padding-left: 10px;
+  padding-right: 10px;
 }
