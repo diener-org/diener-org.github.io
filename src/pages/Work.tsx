@@ -1,10 +1,15 @@
 import React from "react";
-import SmallNav from "../components/SmallNav";
+import MenuLinks from "../components/MenuLinks";
 
-export default function Work() {
+interface WorkProps {
+  pageName: string;
+}
+
+export default function Work({ pageName }: WorkProps) {
   return (
-    <>
-      <SmallNav />
-    </>
+    <div className="work">
+      <MenuLinks className="work-menu-link-grid" />
+      <p>This is the {pageName} page</p>
+    </div>
   );
 }

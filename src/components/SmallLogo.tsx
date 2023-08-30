@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.jpg";
 
-export default function SmallNav() {
+export default function SmallLogo() {
   return (
     <>
-      <Link className="small-nav" to="/">
+      <Link className="small-logo-grid" to="/">
         <img className="small-logo" src={logo} alt="" />
       </Link>
     </>
